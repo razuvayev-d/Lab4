@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Lab4
 {
+    /// <summary>
+    /// Класс настроек Windows. Содержит в себе определения функций настроек для Windows.
+    /// </summary>
     class WindowsSettings : IAbstractSettings
     {
         public WindowsSettings() { }

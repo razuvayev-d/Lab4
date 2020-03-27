@@ -3,12 +3,12 @@
 namespace Lab4
 {
     /// <summary>
-    /// Класс клиента
+    /// Клиентский класс
     /// </summary>
     class Client
     {
         /// <summary>
-        /// Выборщик операционной системы     
+        /// Выборщик операционной системы. В зависимости от входных данных создает соответствующий настройщик для операционной системы.     
         /// </summary
         /// <param name="os">Название операционной системы </param>
         public static void Elector(string os)
@@ -31,7 +31,10 @@ namespace Lab4
             Console.ReadLine();
         }
 
-        
+        /// <summary>
+        /// Устанавливает настройки любой операционной системы
+        /// </summary>
+        /// <param name="customizer">настройщик операционной системы</param>
         static void OSSet(IAbstractCustomizer customizer)
         {
             var Settings = customizer.GetSettings();

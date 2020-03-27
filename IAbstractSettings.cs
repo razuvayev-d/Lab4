@@ -5,7 +5,7 @@ using System.Text;
 namespace Lab4
 {
     /// <summary>
-    /// Интерфейс настроек
+    /// Интерфейс настроек. Содержит в себе объявления функций настроек абстрактной операционной системы
     /// </summary>
     public interface IAbstractSettings
     {

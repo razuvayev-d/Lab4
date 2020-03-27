@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Lab4
 {
+    /// <summary>
+    /// Класс настроек MacOS. Содержит в себе определения функций настроек для MacOS.
+    /// </summary>
     class MacSettings : IAbstractSettings
     {
         public MacSettings() { }

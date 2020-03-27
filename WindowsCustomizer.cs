@@ -9,6 +9,10 @@ namespace Lab4
     /// </summary>
     public class WindowsCustomizer : IAbstractCustomizer
     {
+        /// <summary>
+        /// Создает экземпляр класса WindowsSettings
+        /// </summary>
+        /// <returns>возвращает класс настроек операционной системы Windows</returns>
         public IAbstractSettings GetSettings()
         {
             return new WindowsSettings();

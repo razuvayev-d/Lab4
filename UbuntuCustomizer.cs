@@ -9,6 +9,10 @@ namespace Lab4
     /// </summary>
     public class UbuntuCustomizer : IAbstractCustomizer
     {
+        /// <summary>
+        /// Создает экземпляр класса UbuntuSettings
+        /// </summary>
+        /// <returns>возвращает класс настроек операционной системы Ubuntu</returns>
         public IAbstractSettings GetSettings()
         {
             return new UbuntuSettings();

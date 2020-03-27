@@ -2,9 +2,9 @@
 
 namespace Lab4
 {
-   /// <summary>
-   /// Класс настроек Ubuntu
-   /// </summary>
+    /// <summary>
+    /// Класс настроек Ubuntu. Содержит в себе определения функций настроек для Ubuntu.
+    /// </summary>
     class UbuntuSettings : IAbstractSettings
     {
         public UbuntuSettings() { }        
